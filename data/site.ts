@@ -9,7 +9,7 @@ export const siteConfig = {
   brandName: "TRUSHTI",
   brandTagline: "Products you desire.",
   brandStatement: "Everyday products. Made to be trusted.",
-  domain: "https://www.trushti.in", // update once the domain is live
+  domain: "https://www.trushti.com", // update once the domain is live
   logo: "/brand/trushti-logo.png",
   logoCompact: "/brand/trushti-logo-512.png",
   backgroundTexture: "/brand/background-pattern.png",
@@ -31,7 +31,7 @@ export const siteConfig = {
   },
 
   business: {
-    legalName: null as string | null,
+    legalName: "Trushti Traders"
     gstin: null as string | null,
   },
 };

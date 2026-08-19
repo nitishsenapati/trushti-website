@@ -15,7 +15,7 @@ export const siteConfig = {
   backgroundTexture: "/brand/background-pattern.png",
 
   contactEmail: null as string | null, // e.g. "hello@trushti.in"
-  contactPhone: null as string | null, // e.g. "+91 90000 00000"
+  contactPhone: "+91 90000 00000", // e.g. "+91 90000 00000"
   contactAddress: null as string | null,
 
   social: {

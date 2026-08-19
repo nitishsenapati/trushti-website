@@ -1,0 +1,39 @@
+/**
+ * Centralized configuration for information supplied outside the codebase.
+ * Update these values — nothing else in the app needs to change.
+ * Fields left `null` are intentionally unset; the UI renders a clearly
+ * marked placeholder/coming-soon state instead of inventing data.
+ */
+
+export const siteConfig = {
+  brandName: "TRUSHTI",
+  brandTagline: "Products you desire.",
+  brandStatement: "Everyday products. Made to be trusted.",
+  domain: "https://www.trushti.in", // update once the domain is live
+  logo: "/brand/trushti-logo.png",
+  logoCompact: "/brand/trushti-logo-512.png",
+  backgroundTexture: "/brand/background-pattern.png",
+
+  contactEmail: null as string | null, // e.g. "hello@trushti.in"
+  contactPhone: null as string | null, // e.g. "+91 90000 00000"
+  contactAddress: null as string | null,
+
+  social: {
+    instagram: null as string | null,
+    facebook: null as string | null,
+    youtube: null as string | null,
+  },
+
+  shipping: {
+    // Populate once a courier/policy partner is finalized.
+    domesticEstimate: null as string | null,
+    codAvailable: null as boolean | null,
+  },
+
+  business: {
+    legalName: null as string | null,
+    gstin: null as string | null,
+  },
+};
+
+export type SiteConfig = typeof siteConfig;

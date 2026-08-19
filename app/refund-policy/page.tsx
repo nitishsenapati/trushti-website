@@ -17,7 +17,7 @@ export default function RefundPolicyPage() {
       <section className="py-12 md:py-16">
         <div className="container-wide max-w-prose space-y-6 text-sm leading-relaxed text-slate-600">
           <p className="rounded-xl border border-dashed border-border bg-surface p-4 text-slate-500">
-            This page is a placeholder. TRUSHTI's return and refund terms will be added here before launch.
+            This page is a placeholder. TRUSHTI&apos;s return and refund terms will be added here before launch.
           </p>
           {sections.map((title) => (
             <div key={title}>

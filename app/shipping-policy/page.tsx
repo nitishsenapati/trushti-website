@@ -17,7 +17,7 @@ export default function ShippingPolicyPage() {
         <div className="container-wide max-w-prose space-y-6 text-sm leading-relaxed text-slate-600">
           <p className="rounded-xl border border-dashed border-border bg-surface p-4 text-slate-500">
             Shipping timelines, coverage areas and courier details will be confirmed and published here
-            once TRUSHTI's logistics partner is finalized.
+            once TRUSHTI&apos;s logistics partner is finalized.
           </p>
           <div>
             <h2 className="text-lg font-medium text-ink">Estimated Delivery</h2>

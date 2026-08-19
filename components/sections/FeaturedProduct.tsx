@@ -15,7 +15,7 @@ export default function FeaturedProduct({ product }: { product: Product }) {
       />
       <div className="container-wide relative grid items-center gap-12 lg:grid-cols-2">
         <Reveal className="order-2 lg:order-1">
-          <span className="eyebrow text-powder-200">TRUSHTI's First Product</span>
+          <span className="eyebrow text-powder-200">TRUSHTI&apos;s First Product</span>
           <h2 className="mt-3 text-3xl md:text-4xl lg:text-[2.75rem] font-medium leading-[1.1] tracking-tight">
             Meet Panda Spark
           </h2>

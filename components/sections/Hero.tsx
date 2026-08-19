@@ -10,8 +10,9 @@ export default function Hero() {
         className="absolute inset-0 opacity-[0.55]"
         style={{
           backgroundImage: `url(${siteConfig.backgroundTexture})`,
-          backgroundSize: "560px",
-          backgroundRepeat: "repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       />
       <div

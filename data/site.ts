@@ -14,9 +14,9 @@ export const siteConfig = {
   logoCompact: "/brand/trushti-logo-512.png",
   backgroundTexture: "/brand/background-pattern.png",
 
-  contactEmail: null as string | null, // e.g. "hello@trushti.in"
+  contactEmail: "soonatan@tobeupdate.com", // e.g. " null as string | null,"
   contactPhone: "+91 90000 00000", // e.g. "+91 90000 00000"
-  contactAddress: null as string | null,
+  contactAddress: "TRUSHTI TRADERS\nAT/PO - Baunsadina, Kamarda,\nBalasore, 756003, Odisha, India",
 
   social: {
     instagram: null as string | null,
@@ -31,7 +31,7 @@ export const siteConfig = {
   },
 
   business: {
-    legalName: "Trushti Traders"
+    legalName: "Trushti Traders",
     gstin: null as string | null,
   },
 };

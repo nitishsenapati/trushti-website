@@ -11,8 +11,9 @@ export default function BrandFuture() {
         className="absolute inset-0 opacity-[0.06]"
         style={{
           backgroundImage: `url(${siteConfig.backgroundTexture})`,
-          backgroundSize: "480px",
-          backgroundRepeat: "repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
           filter: "invert(1)",
         }}
       />

@@ -66,9 +66,9 @@ export default function Footer() {
               <Image
                 src={siteConfig.logoCompact}
                 alt="TRUSHTI — Products you desire"
-                width={44}
-                height={44}
-                className="h-9 w-9 object-contain"
+                width={64}
+                height={64}
+                className="h-14 w-14 object-contain"
               />
             </span>
             <p className="mt-5 max-w-[220px] text-sm leading-relaxed text-white/65">

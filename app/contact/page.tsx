@@ -34,7 +34,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <dt className="text-slate-400">Address</dt>
-                <dd className="mt-0.5 text-ink">{siteConfig.contactAddress ?? "Coming soon"}</dd>
+                <dd className="mt-0.5 text-ink whitespace-pre-line">{siteConfig.contactAddress ?? "Coming soon"}</dd>
               </div>
             </dl>
           </div>

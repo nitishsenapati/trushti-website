@@ -41,9 +41,9 @@ export default function Navbar() {
           <Image
             src={siteConfig.logoCompact}
             alt="TRUSHTI — Products you desire"
-            width={40}
-            height={40}
-            className="h-9 w-9 object-contain"
+            width={56}
+            height={56}
+            className="h-16 w-16 object-contain"
             priority
           />
           <span className="font-display text-lg font-semibold tracking-tight text-navy hidden xs:inline">

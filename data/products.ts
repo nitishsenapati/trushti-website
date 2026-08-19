@@ -64,7 +64,7 @@ export const products: Product[] = [
     compareAtPrice: null,
     images: [
       {
-        src: "/products/panda-spark-hero.jpg",
+        src: "/products/panda-spark-hero.png",
         alt: "Panda Spark Crystal Glass Cleaner Concentrate, 500ml bottle with trigger spray",
       },
       { src: "", alt: "", isPlaceholder: true, placeholderLabel: "Front packaging" },
